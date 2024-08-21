@@ -16,3 +16,14 @@ function  ispisiRijec(rijec){
 }
 ispisiRijec("polica");
 ispisiRijec("zemlja");
+
+//Opcionalni zadatak
+function ispisiBroj(broj) {
+    if (broj >= 2) {
+      if (broj % 2 === 0) {
+        console.log(broj);
+      }
+      ispisiBroj(broj - 1); 
+    }
+  }
+  ispisiBroj(100);
