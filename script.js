@@ -9,3 +9,10 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('extra-text').style.display = 'block';
     
 });
+//TReci zadatak
+function  ispisiRijec(rijec){
+    console.log("Vasa rijec za pretragu je: " + rijec)
+
+}
+ispisiRijec("polica");
+ispisiRijec("zemlja");
