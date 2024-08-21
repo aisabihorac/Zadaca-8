@@ -1,6 +1,6 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', () => {
     let image = document.querySelector('img');
-    image.addEventListener('click', function() {
-        alert('Ovo je slika palestinske masline!');
-    });
-});
+    image.onclick = () => {
+      console.log('Ovo je slika palestinske masline!');
+    };
+  });
