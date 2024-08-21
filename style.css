@@ -1,0 +1,21 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #343a40;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.blockquote {
+    font-style: italic;
+    color: #6c757d;
+    border-left: 4px solid #343a40;
+    padding-left: 1rem;
+}
+
