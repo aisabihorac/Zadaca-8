@@ -27,3 +27,5 @@ function ispisiBroj(broj) {
     }
   }
   ispisiBroj(100);
+//Lekcija 22.8
+  console.log("Vjezbamo");
